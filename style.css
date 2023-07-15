@@ -8,3 +8,77 @@
 
 
    /* Header style-saction*/
+header{
+    height: 120vh;
+    background-color: blanchedalmond;
+    border:1px solid #131313;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px   240px;
+    background-color: antiquewhite;
+
+}
+
+.menu> ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.menu> ul> li{
+    text-decoration: none;
+    margin-right: 35px;
+    justify-content: space-between;
+
+}
+
+.menu> ul > li a{
+   text-decoration: none;
+   font-size: 1rem;
+   font-weight: 500;
+   color: #424242;
+}
+
+   /* Header banner-saction*/
+
+.header-baner{
+    text-align: center;
+    padding: 0px 240px;
+}
+
+
+.head-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color:3rem;
+    color:#131313
+}
+
+.head-paragraph{
+    font-size: 1rem;
+
+}
+.btn-common{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #FF900E;
+    border-color: none;
+    border-radius: 5px;
+    padding: 08px 17px;
+}
+
+.btn-common > a{
+    text-decoration: none;
+}
+
+
+.banner-img{
+    margin-top: 30px;
+    align-items: center;
+    border-radius: 7px;
+}
