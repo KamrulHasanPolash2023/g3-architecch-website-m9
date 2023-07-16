@@ -78,7 +78,82 @@ header{
     margin-top: 30px;
     align-items: center;
     border-radius: 7px;
+
 }
+
+/*Main 1st section-fetured*/
+
+.team-section{
+    display: flex;
+    padding: 40px 280px;
+    gap: 50px;
+    align-items: center;
+}
+
+.team-galeray{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap:20px;
+}
+
+.gallery-text{
+
+    justify-content: center;
+}
+
+
+
+
+/*Main 2nd section-fetured*/
+.fetured-section{
+    display: flex;
+    padding: 50px 240px;
+ 
+}
+
+.box{
+    width: 15% ;
+    border: #FF900E;
+    background-color: #FF900E;
+    padding:30px 60px;
+    text-align: center;
+} 
+
+
+
+/*Revei section four icon*/
+
+.revew{
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border: #131313;
+    padding: 20px 30px;
+    border:1px solid black;
+}
+.revew-section{
+    display: flex;
+    justify-content: center;
+justify-content: space-around;
+margin-left: 150px;
+margin-right: 150px;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media queries section*/
 
 @media screen and ( max-width: 576px) {
