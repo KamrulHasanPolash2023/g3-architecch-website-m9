@@ -52,7 +52,7 @@ header{
     font-size: 3rem;
     font-weight: 700;
     color:3rem;
-    color:#131313
+    color:#131313;
 }
 
 .head-paragraph{
@@ -81,7 +81,7 @@ header{
 
 }
 
-/*Main 1st section-fetured*/
+/*Team section with 4 photo*/
 
 .team-section{
     display: flex;
@@ -108,53 +108,121 @@ grid-gap:20px;
 .fetured-section{
     display: flex;
     padding: 50px 240px;
+    align-items: center;
  
 }
+.f-Title{
+    font-size: 2rem;
+    color: red;
+    border-left:7px solid #FF900E;
+    padding-left: 10px;
+
+}
+
+.f-paragraph{
+    font: 1rem;
+    color:#757373;
+
+}
+
+.f-inner-pg{
+    padding-left: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.box-holder{
+display: flex;
+align-items: center;
+margin-top: -210px;
+}
+
 
 .box{
-    width: 15% ;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
     border: #FF900E;
+    border-radius: 8px;
     background-color: #FF900E;
-    padding:30px 60px;
+    padding:20px 30px;
+    margin-left: 800px;
     text-align: center;
+
 } 
 
 
 
-/*Revei section four icon*/
+
+
+.fethured-img{
+    width: 650px;
+    height: 1100px;
+    padding-left: 50px;
+}
+
+
+/* Fact and service section*/
+.facts{
+    padding-left: 240px;
+
+}
+
+.facts-paragraph{
+    padding-left: 240px;
+}
+
+
+/*Revew section four icon*/
 
 .revew{
-    background-color: aquamarine;
     width: 150px;
     height: 150px;
     text-align: center;
     border: #131313;
     padding: 20px 30px;
-    border:1px solid black;
+    border:1px solid tomato;
 }
 .revew-section{
     display: flex;
     justify-content: center;
-justify-content: space-around;
-margin-left: 150px;
-margin-right: 150px;
-    
-    
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;}
 
+
+.sopnsor-head{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-left: 240px;
+    padding-right: 240px;
+    text-align: center;
+}
+
+.sponsored{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 240px;
+    padding-right: 240px;
 }
 
 
+.copyrigh{
+    margin-top: 150px;
+    margin-bottom: 180px;
+    border: 1px solid tan;
+    background-color: #FFF4E7;
+    padding: 20px 100px;
+    margin-left: 240px;
+    margin-right: 240px;
+    text-align: center;
+}
+
+        /*CSS End*/
 
 
-
-
-
-
-
-
-
-
-/* Media queries section*/
+/* Media queries section for Mobile*/
 
 @media screen and ( max-width: 576px) {
     .navbar{
@@ -166,8 +234,42 @@ margin-right: 150px;
     .header-baner{
          text-align: center;
          padding: 20px;
+    }
+
+    .team-section{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .team-galeray{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:10px;
 }
+.fetured-section{
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
 }
+
+.fethured-img{
+    width: auto;
+  }
+
+.box-holder{
+        flex-direction: column;
+        align-items: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Media queries section Medium-device*/
 
@@ -180,8 +282,8 @@ margin-right: 150px;
     }
     .header-baner{
         text-align: center;
-        padding: 50px;
-}
+        padding: 10px;
 }
 
 
+}
