@@ -264,16 +264,16 @@ margin-top: -210px;
     margin-left: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
-
 }
+
 .box{
     margin: 0px;
 }
+
 .facts{
     padding-left: 10px;
     align-items: center;
     text-align: center;
-
 }
 
 .facts-paragraph{
@@ -288,37 +288,37 @@ margin-top: -210px;
     padding: 10px;
     align-items: center;
     gap: 10px
-
 }
 
 .sopnsor-head-media{
-    text-align: center;
+    align-items: center;
+    padding-left: 0px;
+    margin: 0px;
 }
+
 .sopnsor-head{
-    margin-top: 10px;
-    margin-bottom: 10;
-    padding-left: 10px;
-    padding-right: 10;
-    text-align: center;}
-
-
-    .sponsored{
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 20px;
-        gap: 20px;
-    }
-
-    .copyrigh{
-        margin:10px;
-        border: 1px solid tan;
-        background-color: #FFF4E7;
-        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: center;
     }
+.sponsored{
+       flex-direction: column;
+        justify-content: space-between;
+        padding-left: 240px;
+        padding-right: 240px}
+
+    .copyrigh{
+            border: 1px solid tan;
+            background-color: #FFF4E7;
+            padding: 10px 20px;
+            margin-left: 0px;
+            margin-right: 0px;
+            text-align: center;
+            margin-bottom: 300px;
 }
-
-
+}
 
 
 
@@ -334,9 +334,91 @@ margin-top: -210px;
         padding: 20px;
     }
     .header-baner{
-        text-align: center;
+         text-align: center;
+         padding: 20px;
+    }
+
+    .team-section{
+        flex-direction: column;
         padding: 10px;
+    }
+    .team-galeray{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:10px;
+}
+.fetured-section{
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
 }
 
+.fethured-img{
+    width: auto;
+    margin-left:  5px;
+    margin-right: 5px;
+    padding: 0px;
 
+  }
+
+.box-holder{
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
 }
+
+.box{
+    margin: 0px;
+}
+
+.facts{
+    padding-left: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.facts-paragraph{
+    padding: 10px;
+}
+.revew-section{
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px
+}
+
+.sopnsor-head-media{
+    align-items: center;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.sopnsor-head{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+.sponsored{
+       flex-direction: column;
+        justify-content: space-between;
+        padding-left: 240px;
+        padding-right: 240px}
+
+    .copyrigh{
+            border: 1px solid tan;
+            background-color: #FFF4E7;
+            padding: 10px 20px;
+            margin-left: 0px;
+            margin-right: 0px;
+            text-align: center;
+            margin-bottom: 300px;
+}
+}
+
